@@ -1,0 +1,131 @@
+body, html {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-image: url('https://www.howitworksdaily.com/wp-content/uploads/2020/05/sky-4237062_1920.jpg');
+    background-size: 100%;
+}
+
+.form--container {
+    padding: 0.5em 1em;
+    background: rgb(8,0,152);
+    background: linear-gradient(90deg, rgba(8,0,152,1) 0%, rgba(49,49,156,1) 35%, rgba(1,145,145,1) 100%);
+}
+
+.form--input {
+    height: 2em;
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+}
+
+.form--button {
+    height: 2.3em;
+    width: 8em;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+/** today weather styling */
+
+.today--container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    margin-top: 2em;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+.today--main--info {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-right: 2em;
+}
+
+.today--main--image {
+    width: 150px;
+    align-items: center;
+    padding-right: 3em;
+}
+
+.today--main--weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.today--main--weather--temperature {
+    margin-bottom: 0;
+}
+
+.today--side--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 2em;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+.today--side--info > h3 {
+    margin: 0;
+    padding-bottom: 0.2em;
+}
+
+/** next days styling */
+
+.nextDays--container--main {
+    display: flex;
+    width: 98%;
+    margin: 1em 1em;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.nextDay--container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-right: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;  
+    text-shadow: 1px 1px 2px #4FCEC6;
+}
+
+.nextDay--title {
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: 900;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+.nextDay--image {
+    align-self: center;
+    width: 5em;
+    -webkit-filter: 
+        drop-shadow(0 0.2px 20px white)
+        drop-shadow(0 -0.2px 20px white);
+    filter: 
+        drop-shadow(0 0.2px 20px white)
+        drop-shadow(0 -0.2px 20px white);
+}
+
+.nextDay--container > p {
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    color: white;
+    text-shadow: rgb(56, 126, 156) 1px 0px 0px, rgb(56, 126, 156) 0.540302px 0.841471px 0px, rgb(56, 126, 156) -0.416147px 0.909297px 0px, rgb(56, 126, 156) -0.989992px 0.14112px 0px, rgb(56, 126, 156) -0.653644px -0.756802px 0px, rgb(56, 126, 156) 0.283662px -0.958924px 0px, rgb(56, 126, 156) 0.96017px -0.279415px 0px;
+}
