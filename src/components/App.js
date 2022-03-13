@@ -36,11 +36,6 @@ class App extends Component {
             cityCountry: locationInfo[0].country,
             nextDays: locationWeather.daily
         })
-        //console.log(`Umiditatea astazi este ${this.state.nextDays[1].humidity}%`)
-        //console.log(this.state.nextDays[0].weather[0].icon)
-        
-        //{this.state.cityName && console.log(`${this.state.nextDays[0].rain ? `${this.state.nextDays[0].rain}%` : `${this.state.nextDays[0].snow}%`} sansa de ploaie astazi`)}
-        //{this.state.cityName && console.log(this.state.nextDays)}
     }
 
     /* functie ce face fetch datelor pentru locatia introdusa */

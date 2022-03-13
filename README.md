@@ -1,9 +1,4 @@
-## Date de afisat:
-    1. nume oras 
-    2. regiune
-    3. tara
-    4. temperatura
-    5. feels_like
-    6. umiditate -> humidity
-    7. sansa de ploaie -> .rain.1h
-    8. [{zilele urmatoare}]
+## Weather App
+
+This is a simple weather app created with ReactJS.
+Userts are able to type a city's name in order to get a forecast for the following week.
